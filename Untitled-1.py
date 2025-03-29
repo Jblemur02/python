@@ -61,5 +61,3 @@ while (user_password_guess.lower() != user_id.password.lower()):
     if count >= 3:
         print("You have attemped to enter in your password too many times. Sorry.")
         exit()
-    
-    
